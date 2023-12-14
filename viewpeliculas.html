@@ -21,12 +21,18 @@
     <main>
         <div id="app">
             <h2>Bienvenido a TrailerVisión</h2>
-            <div class="container" v-for="pelicula in peliculas">
-                <div>
-                    <b-card :title="pelicula.titulo" :img-src="pelicula.imagen" :img-alt="pelicula.titulo" img-top tag="article" style="max-width: 20rem;" class="mb-2">
-                        <b-card-text>{{pelicula.desc}}</b-card-text>
-                        <b-button href="#" variant="primary">Ver Mas</b-button>
-                    </b-card>
+            <div class="cards">
+                <div class="containercard" v-for="pelicula in peliculas">
+                    <div id="contenedorpelis">
+                        <div class="card">
+                            <img class="card-img-top" :src="pelicula.imagen" alt="Title" />
+                            <div class="card-body">
+                                <h4 class="card-title">{{pelicula.titulo}}</h4>
+                                <p class="card-text">{{pelicula.desc}}</p>
+                                <p>{{pelicula.titulo}}</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         <div>
