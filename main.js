@@ -9,7 +9,7 @@ document.getElementById("header").innerHTML=` <nav class="navbar navbar-expand-s
       <ul class="navbar-nav me-auto mt-2 mt-lg-0">
           <li class="nav-item flex-container">
               <a class="nav-link flex-items" href="./peliculas.html">Home</a>
-              <a class="nav-link flex-items" href="./loggin.html">Loggin</a>
+              <a class="nav-link flex-items" href="./index.html">Loggin</a>
               <a class="nav-link flex-items" href="#">Contacto</a>
               <a class="nav-link flex-items" href="#">Proyectos</a>
               <a class="nav-link flex-items" href="#">About Us</a>
